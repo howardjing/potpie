@@ -1,0 +1,94 @@
+body, html{
+	margin:0;
+	padding:0;
+}
+
+#navigation{
+	height:32px;
+	background:orange;
+
+}
+
+#navigation ul{
+	margin:0px;
+	padding:8px;
+	list-style:none;
+}
+#navigation li{
+	display:inline;
+	float:left;
+	margin-right:16px;
+
+}
+
+#navigation li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#navigation li a:hover{
+	text-decoration:underline;
+}
+
+#wrapper{
+	width:900px;
+}
+#content{
+	padding-left:50px;
+}
+#rightMenu{
+	float:right;
+	width:150px;
+	padding:0px;
+}
+#rightMenu ul{
+	list-style:none;
+	text-align:right;
+}
+#rightMenu li a{
+	text-decoration:none;
+	color:blue;
+}
+#rightMenu li a:hover{
+	text-decoration:underline;
+	color:blue;
+	
+}
+
+#leftContent{
+	width:700px;
+	float:left;
+}
+
+.post{
+	margin-bottom:50px;
+}
+.post h2{
+	margin-top:0px;
+}
+.post p{
+	margin:0px;
+}
+.post img{
+	float:right;
+}
+
+.paragraph{
+	margin-bottom:25px;
+}
+.paragraph p{
+	margin:0px;
+}
+
+.center{
+	text-align:center;
+}
+
+.tabbed ul{
+	padding:0px;
+	margin:0px;
+}
+.tabbed li{
+	display:inline;
+	margin-right:32px;
+}
