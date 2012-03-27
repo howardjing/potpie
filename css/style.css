@@ -9,86 +9,58 @@ body, html{
 
 }
 
-#navigation ul{
+#navigation ul {
 	margin:0px;
 	padding:8px;
 	list-style:none;
 }
-#navigation li{
+
+#navigation li {
 	display:inline;
 	float:left;
 	margin-right:16px;
 
 }
 
-#navigation li a{
+#navigation li a {
 	color:#fff;
 	text-decoration:none;
 }
 
-#navigation li a:hover{
+#navigation li a:hover {
 	text-decoration:underline;
 }
 
-#wrapper{
-	width:900px;
+#wrapper {
+	width:850px
 }
-#content{
+
+#header {
+  /* nothing yet */
+}
+
+#content {
 	padding-left:50px;
 }
-#rightMenu{
-	float:right;
-	width:150px;
-	padding:0px;
-}
-#rightMenu ul{
-	list-style:none;
-	text-align:right;
-}
-#rightMenu li a{
-	text-decoration:none;
-	color:blue;
-}
-#rightMenu li a:hover{
-	text-decoration:underline;
-	color:blue;
-	
+
+#content p {
+  margin:0px 0px 0px 0px;
 }
 
-#leftContent{
-	width:700px;
+#leftContent {
+	width:70%;
 	float:left;
 }
 
-.post{
-	margin-bottom:50px;
-}
-.post h2{
-	margin-top:0px;
-}
-.post p{
-	margin:0px;
-}
-.post img{
-	float:right;
+#rightContent {
+  /* nothing here */
 }
 
-.paragraph{
-	margin-bottom:25px;
-}
-.paragraph p{
-	margin:0px;
-}
-
-.center{
-	text-align:center;
-}
-
-.tabbed ul{
+.tabbed ul {
 	padding:0px;
 	margin:0px;
 }
-.tabbed li{
+.tabbed li {
 	display:inline;
 	margin-right:32px;
 }
