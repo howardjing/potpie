@@ -1,17 +1,18 @@
 body, html{
 	margin:0;
 	padding:0;
+	
 }
 
 #navigation{
-	height:32px;
-	background:orange;
-
+	height:40px;
+	background: #2E2E2E;
+	font-family:"Helvetica", "Arial", "Sans-serif";
 }
 
 #navigation ul {
 	margin:0px;
-	padding:8px;
+	padding:12px;
 	list-style:none;
 }
 
