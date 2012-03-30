@@ -1,26 +1,24 @@
-body, html{
-	margin:0;
-	padding:0;
-	
+body, html {
+	margin:0px;
+	padding:0px;
+	font-family:"Cambria";
 }
 
-#navigation{
+#navigation {
 	height:40px;
-	background: #2E2E2E;
-	font-family:"Helvetica", "Arial", "Sans-serif";
+	background:#2E2E2E;
 }
 
 #navigation ul {
 	margin:0px;
-	padding:13px;
+	padding:10px;
 	list-style:none;
 }
 
 #navigation li {
+	margin-right:10px;
 	display:inline;
 	float:left;
-	margin-right:16px;
-
 }
 
 #navigation li a {
@@ -33,7 +31,10 @@ body, html{
 }
 
 #wrapper {
-	width:850px
+	width:1000px;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
 }
 
 #header {
@@ -41,7 +42,8 @@ body, html{
 }
 
 #content {
-	padding-left:50px;
+	padding:5px;
+	background-color:#fff;
 }
 
 #content p {
@@ -49,19 +51,25 @@ body, html{
 }
 
 #leftContent {
-	width:70%;
+	width:500px;
 	float:left;
 }
 
 #rightContent {
-  /* nothing here */
+	width:420px;
+	float:right;
+}
+
+#rightContent img {
+	padding:5px;
 }
 
 .tabbed ul {
 	padding:0px;
 	margin:0px;
 }
+
 .tabbed li {
+	margin-right:10px;
 	display:inline;
-	margin-right:32px;
 }
